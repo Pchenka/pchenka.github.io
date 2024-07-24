@@ -1,4 +1,10 @@
-/* Reset some default browser styles */
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -45,6 +51,7 @@ nav ul li a {
 
 main {
     padding: 50px 0;
+    flex-grow: 1; /* Main content area takes all available space */
 }
 
 .container {
@@ -70,26 +77,13 @@ main {
     background-color: #555;
 }
 
-
-/* General reset for margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* Main content area takes all available space */
-main {
-    flex-grow: 1;
-}
-
 /* Footer styling */
 footer {
     background-color: #f1f1f1; /* Light grey background color */
     text-align: center;        /* Centered text */
     padding: 10px 0;           /* Padding for spacing */
-    position: relative;        /* Ensures the footer is positioned properly within the page */
-    bottom: 0;                 /* Sticks to the bottom of the page */
     width: 100%;               /* Full width of the viewport */
+    margin-top: auto;          /* Pushes footer to the bottom */
 }
+
+
