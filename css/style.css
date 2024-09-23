@@ -1448,4 +1448,20 @@ ol {
 	.home-four-style .main-left-area {
 		padding-top: 250px;
 	}
+	/*Button*/
+	.project-button {
+		display: inline-block;
+		background-color: #3498db; /* Change this color to match your theme */
+		color: white;
+		padding: 10px 20px;
+		text-align: center;
+		border-radius: 5px;
+		text-decoration: none;
+		font-weight: bold;
+		transition: background-color 0.3s ease;
+	}
+	
+	.project-button:hover {
+		background-color: #2980b9; /* Hover color */
+	}
 }
