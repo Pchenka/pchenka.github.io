@@ -1099,6 +1099,25 @@ ol {
 	padding-top: 0;
 }
 
+/*Button Go home */
+.go-home-btn {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 2px solid #ff4500; /* Darker red border */
+    transition: all 0.3s ease;
+}
+
+.go-home-btn:hover {
+    background-color: #ff4500; /* Darker red on hover */
+    border-color: #ff6347;
+    color: #ffffff;
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
+}
+
 /*---------------------
 	Home 6 Style
 -----------------------*/
